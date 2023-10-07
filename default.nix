@@ -8,5 +8,5 @@
     ./modules/rtirq.nix
   ];
 
-  nixpkgs.overlays = [ (import ./overlay.nix) ];
+  #  nixpkgs.overlays = [ (import ./overlay.nix) ];
 }
